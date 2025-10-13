@@ -9,7 +9,7 @@
 <a href='https://arxiv.org/abs/2510.08987'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
-[Qixiang Yin](https://scholar.google.com.hk/citations?user=Wju65yoAAAAJ&hl=zh-CN)<sup>1,5</sup>, [Huanjin Yao](https://scholar.google.com.hk/citations?user=pDtsCBQAAAAJ&hl=zh-CN)<sup>2</sup>, [Jianghao Chen](https://scholar.google.com/citations?user=qnW72HoAAAAJ&hl=en)<sup>5</sup>, [Jiaxing Huang](https://scholar.google.com.hk/citations?user=czirNcwAAAAJ&hl=zh-CN)<sup>2</sup>, [Zhicheng Zhao]()<sup>1,3,4</sup>, [Fei Su]()<sup>1,3,4</sup>
+[Qixiang Yin](https://scholar.google.com.hk/citations?user=Wju65yoAAAAJ&hl=zh-CN)<sup>1,5*</sup>, [Huanjin Yao](https://scholar.google.com.hk/citations?user=pDtsCBQAAAAJ&hl=zh-CN)<sup>2*</sup>, [Jianghao Chen](https://scholar.google.com/citations?user=qnW72HoAAAAJ&hl=en)<sup>5</sup>, [Jiaxing Huang](https://scholar.google.com.hk/citations?user=czirNcwAAAAJ&hl=zh-CN)<sup>2</sup>, [Zhicheng Zhao]()<sup>1,3,4</sup>, [Fei Su]()<sup>1,3,4</sup>
 
 <sup>1</sup> Beijing University of Posts and Telecommunications,  <sup>2</sup>Nanyang Technological University 
 
@@ -37,6 +37,10 @@ Although Multimodal Large Language Models (MLLMs) have demonstrated remarkable c
 
 </div>
 (a)Two-stage framework for training lightweight MLLMs for unified reasoning tasks. (b) The average response length of GRPO, DAPO and LIPO(Ours) on the training set during the RL training process. (c) Tiny-R1V achieves the state-of-the-art performance on a broad range of multimodal reasoning tasks compared with other open source models.
+
+
+
+
 
 <div align=center>
 <img alt="image" src="fig/fig2.png">
