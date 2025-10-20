@@ -48,6 +48,17 @@ Although Multimodal Large Language Models (MLLMs) have demonstrated remarkable c
 Tiny-R1V employs Length-Informed Relative Policy Optimization (LIPO) and Adaptive Model Merging (AMM). In the first stage, Tiny-R1V trains three expert models separately using LIPO, which dynamically adjusts the advantages between groups to minimize the number of response tokens while ensuring the accuracy of the answer. In the second stage, Tiny-R1V merges the three models using AMM, determines the dynamic weights of model parameters, and reduces parameter conflicts, resulting in the final Tiny-R1V-3B model.
 
 
+## 🔗 Citation
+If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
+```bibtex
+@article{yin2025tiny,
+  title={Tiny-R1V: Lightweight Multimodal Unified Reasoning Model via Model Merging},
+  author={Yin, Qixiang and Yao, Huanjin and Chen, Jianghao and Huang, Jiaxing and Zhao, Zhicheng and Su, Fei},
+  journal={arXiv preprint arXiv:2510.08987},
+  year={2025}
+}
+```
+
 ## 🙏 Acknowledgment
 Our work is primarily based on the following codebases. We are sincerely grateful for their work.
 - [EasyR1](https://github.com/hiyouga/EasyR1): We use EasyR1 to fine-tune R1-ShareVL Models.
